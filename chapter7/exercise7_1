@@ -1,0 +1,16 @@
+car_request = input('What car would you like to rent? ')
+print(f'Let me see if we can find you a {car_request}')
+
+available_seating = input('\nHow many people are eating today? ')
+available_seating = int(available_seating)
+if available_seating >= 8:
+	print("Sorry, you'll have to wait for a table.")
+else:
+	print("Your table is right this way.")
+
+num = input('\nWhat is your number? ')
+num = int(num)
+if num % 10 == 0:
+	print(f'{num} is a multiple of 10')
+else:
+	print(f'{num} is not a multiple of 10')
